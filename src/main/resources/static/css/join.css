@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  }
+  .container{
+    max-width: 584px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 20px 240px 20px;
+  }
+  .form_name{
+    font-weight: bold;
+  }
+  .join_form{
+    padding-top: 90px;
+    width:100%;
+  }
+  .form_group{
+    margin-bottom: 24px;
+    width:100%;
+  }
+  .form_proof{
+    display:flex;
+    flex-direction:column;
+  }
+  .form_proof input{
+  	margin-left:12px;
+  }
+  .proof_file{
+    margin-top: 8px;
+    
+  }
+  .idForm{
+    display:flex;
+    justify-content: space-between;
+  }
+  .input_id{
+    flex:2 1 0%;
+    height:56px;
+    border: 1px solid rgb(229, 230, 232);
+  }
+  .double_check{
+    margin-left: 32px;
+    width:160px;
+    border:1px solid rgb(28, 171, 226);
+    background-color: white;
+    color: rgb(28, 171, 226);
+    cursor:pointer;
+  }
+  .input_text{
+    height:56px;
+    border: 1px solid rgb(229, 230, 232);
+    width:100%;
+    font-size: 16px;
+  }
+  .agree{
+    display:flex;
+    margin-top: 10px;
+  }
+  .inputCheck{
+    flex:1 1 0;
+    
+  }
+  .joinAgree{
+    padding: 96px 0px 92px;
+    width:100%;
+  }
+  .container hr{
+    margin: 16px 0px;
+  }
+  .agree_container{
+    border-bottom: 1px solid rgb(229, 230, 232);
+    padding-bottom: 12px;
+  }
+  .agree_check{
+    margin-top: 10px;
+  }
+  .agree_check a{
+    color:black;
+  }
+  .anchorText{
+    float:right;
+  }
+  .join_btn{
+    width:100%;
+    height:41px;
+    font-size: 20px;
+    font-weight: bold;
+    border:0px;
+    background-color: rgb(28, 171, 226);
+    color:white;
+    cursor: pointer;
+  }

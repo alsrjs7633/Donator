@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.donation_box{
+  width: 50%;
+  height: 700px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.money_box{
+ border: 1px solid;
+ height: 100px;
+ margin-top: 30px;
+ padding-left: 5%;
+}
+
+.money_explain{
+  float: left;
+  padding-top: 35px;
+  padding-left: 15%;
+  width: 20%;
+}
+
+.money_img{
+  float: left;
+  padding-top: 5px;
+  padding-left: 10%;
+}
+
+.money_now{
+  float: left;
+  padding-top: 15px;
+  padding-left: 20%;
+}
+
+.now{
+  font-size: 20px;
+}
+
+/*  *//*  *//*  *//*  *//*  */
+.choice {
+  width: 164%;
+}
+
+.choice input[type=radio]{
+  display: none;
+  width: 200px;
+}
+.choice input[type=radio]+label{
+  display: inline-block;
+  cursor: pointer;
+  height: 50px;
+  width: 30%;
+  border: 1px solid #333;
+  line-height: 50px;
+  text-align: center;
+  font-weight:bold;
+  font-size: 100%;
+}
+.choice input[type=radio]+label{
+  background-color: #fff;
+  color: rgb(16, 15, 15);
+
+}
+.choice input[type=radio]:checked+label{
+  background-color:rgb(89, 171, 226);
+  color: #fff;
+}
+/*  *//*  *//*  *//*  *//*  */
+
+
+
+.line{
+  margin-top: 50px;
+}
+
+.first{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.second{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.category{
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+}
+
+.third{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*  *//*  *//*  *//*  *//*  */
+.select {
+  width: 108%;
+}
+
+.select input[type=radio]{
+  display: none;
+  width: 200px;
+}
+.select input[type=radio]+label{
+  display: inline-block;
+  cursor: pointer;
+  height: 50px;
+  width: 30%;
+  border: 1px solid #333;
+  line-height: 50px;
+  text-align: center;
+  font-weight:bold;
+  font-size: 100%;
+}
+.select input[type=radio]+label{
+  background-color: #fff;
+  color: rgb(16, 15, 15);
+
+}
+.select input[type=radio]:checked+label{
+  background-color:rgb(89, 171, 226);
+  color: #fff;
+}
+
+/*  *//*  *//*  *//*  *//*  */
+
+.radio{
+ padding: 0;
+}
+
+#select6{
+  height: 45px;
+  width: 30%;
+}
+
+
+
+.submit_button{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 40%;
+  border-radius: 10px 10px 10px 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(203, 208, 113);
+  border: 1px white;
+  font-size: 20px;
+  height: 55px;
+  width: 20%;
+}
+

@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+  .body{
+    width:584px;
+    margin:60px auto;
+    
+  }
+  .body>p{
+  	text-align:center;
+  	margin:40px 0;
+  	font-size:43px;
+  }
+  .login_form{
+    display:block;
+  }
+  .form_con{
+    width:100%;
+    height:56px;
+    font-size: 16px;
+  }
+  .form_gr{
+    display:flex;
+    margin-top: 8px;
+  }
+  
+  .form_check{
+    display:flex;
+    margin:12px 0 32px 0;
+    justify-content: space-between;
+  }
+  .login_btn{
+    width:100%;
+    height:41px;
+    margin-bottom:12px;
+    background-color: rgb(28, 171, 226);
+    border-color: rgb(28, 171, 226);
+    border:0px;
+    font-size: 20px;
+    font-weight: bold;
+    color:aliceblue;
+    cursor:pointer;
+  }
+  .find{
+    color: rgb(130, 131, 133);
+  }

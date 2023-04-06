@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.loc_container{
+  width:1120px;
+  margin:30px auto;
+}
+.find_map{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+.find_map >iframe{
+  width:50%;
+  margin:0 2% 0 0;
+}
+.find_map dt{
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.find_map dd{
+  margin-bottom: 8px;
+}
+.find_map img{
+  width:24px;
+  margin-right: 6px;
+}
+.intro_loc{
+  width:40%;
+}
+.loc_transport{
+  width:100%;
+  margin-top: 30px;
+}
+.transport_subway{
+  background-color: #f9fbfc;
+  width:100%;
+  padding: 8px;
+}
+.transport_subway img{
+  width:24px;
+  margin-right: 8px;
+}
+.transport_subway p{
+  vertical-align: text-top;
+  font-size: 18px;
+}
+.transport_bus{
+  width: 100%;
+  margin:30px 0;
+  background-color: #f9fbfc;
+  padding:8px;
+}
+.transport_bus p{
+  vertical-align: text-top;
+  font-size: 18px;
+}
+.bus1{
+  width: 68px;
+  height: 28px;
+  border:0 solid #00AFBD;
+  background-color: #00AFBD;
+  border-radius: 3px;
+  text-align: center;
+  color:white;
+  vertical-align: middle;
+}
+.bus2{
+  width: 68px;
+  height: 28px;
+  border:0 solid #47AF1B;
+  background-color: #47AF1B;
+  border-radius: 3px;
+  text-align: center;
+  color:white;
+  vertical-align: middle;
+}
+@media (max-width: 890px) {
+  .container_full{
+    width:100%;
+    margin:0 auto;
+  }
+  .loc_container{
+    width:100%;
+    margin:0 auto;
+  }
+  .find_map >iframe{
+    width:100%;
+    margin:0 5% 0 0;
+  }
+  .intro_loc{
+    display:flex;
+  }
+  .find_map dd{
+    margin-bottom: 8px;
+  }
+  .find_map img{
+    width:24px;
+    margin-right: 6px;
+  }
+  .intro_loc{
+    width:98%;
+    margin:0 auto;
+  }
+}

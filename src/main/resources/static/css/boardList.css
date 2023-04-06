@@ -1,0 +1,89 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:black;
+    list-style: none;
+  }
+  
+  .top_button_box{
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  }
+  
+  .viewPost{
+  height: 35px;
+  width: 30%;
+  margin-left:72%;
+  
+  }
+  
+  .noTitle{
+    text-align: center;
+    margin:50px auto;
+  }
+  .boardContainer{
+    
+    width:890px;
+    margin:0 auto;
+  }
+  .boardt{
+    width:100%;
+    border-collapse: collapse;
+    margin-bottom: 35px;
+  }
+  .colNum{
+    width:10%;
+
+  }
+  .colTitle{
+    width:50%;
+  }
+  .colb{
+    width:20%;
+  }
+  .bhead{
+    background-color: #f3f3f3f3;
+    border-top: 1.5px solid black;
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+    height:56px;
+  }
+  .tNum{
+    text-align: center;
+  }
+  .tTitle{
+    text-decoration: none;
+    color:black;
+  }
+  .tName{
+    text-align: center;
+  }
+  .tDate{
+    text-align: center;
+  }
+  .b_tr{
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+    height:56px;
+  }
+  .noti-paging{
+    margin:0 auto 30px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .noti-paging-li{
+    display:flex;
+    
+  }
+  .noti-paging-li li{
+    width:40px;
+    height:40px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  @media (max-width: 890px) {
+    .boardContainer{
+      width:100%;
+    }
+  }

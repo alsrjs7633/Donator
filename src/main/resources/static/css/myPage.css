@@ -1,0 +1,185 @@
+
+
+#wrap{
+  margin-top: 70px;
+  width: 100%;
+}
+#top-banner{
+  width: 100%;
+  height: 200px;
+  background-color: #bc79f9d9;
+}
+#myPage-info{
+  width: 80%;
+  line-height: 50px;
+  padding-top: 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+#myPage-info h1, #myPage-info h5, #myPage-link
+, #myPage-link a{
+  color: white;
+}
+#info-text{
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#info-text h1, #info-text h5{
+  font-weight: 500;
+}
+#myPage-link {
+  font-size: 18px;
+  line-height: 200px;
+}
+#mainBoard{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#buttons{
+  display: flex;
+}
+#receipt{
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: blueviolet;
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+}
+#receipt a{
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#wellcomeUser{
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 80%;
+}
+#logoutBtn{
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+.user_info{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: #bc79f9d9;
+  border-radius: 10px;
+  min-width: 398px;
+}
+.info_table{
+  padding: 3px;
+  height: 200px;
+  min-width: 398px;
+}
+.info_table th{
+  font-size: 15px;
+  font-weight: 500;
+  
+}
+.info_table td, .info_table th{
+  padding: 20px;
+}
+.info_table td, .info_table th, .info_table b{
+  color: white;
+}
+big{
+  color: darkslategrey;
+}
+#wrap input{
+  width: 130px;
+  text-align: center;
+  border: 0;
+  color: #fff;
+  background-color: #bb79f900;
+}
+.bgWhite{
+  background-color: white;
+  color: #000;
+}
+.editBtn{
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 30px;
+  padding: 5px;
+  border: 0;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media (max-width:800px) {
+  .editBtn{
+    position: absolute;
+    right: 10%;
+  }
+}
+#mySupport{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+#mySuport h3{
+  color: #bc79f9d9;
+  margin-bottom: 30px;
+}
+#whoSupport{
+  width: 100%;
+  height: auto;
+  background-color: #bc79f9d9;
+  border-radius: 10px;
+  min-width: 398px;
+  display: flex;
+  flex-direction: column;
+}
+#wrap svg{
+  position: absolute;
+  z-index: -1;
+  width: 80%;
+  border-radius: 10px;
+  min-width: 398px;
+  overflow: hidden;
+}
+#fullwave{
+  width: 100%;
+}
+.nth-sup{
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.nth-sup:last-of-type{
+  margin-bottom: 40px;
+}
+.inputBox{
+  width: 10px;
+}
+#receiptBtn{
+  border: 0;
+  transform: translateY(-7px);
+  padding: 30px 50px;
+  margin-bottom: 20px;
+  color: white;
+  background-color:blueviolet;
+  cursor: pointer;
+  font-size: 15px;
+}
+#whoSupport form{
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

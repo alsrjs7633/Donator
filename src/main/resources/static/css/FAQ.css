@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  }
+.faq_container{
+  max-width:1120px;
+  min-width:880px;
+  width:100%;
+  margin:0 auto;
+}
+.faq_cate{
+  display:flex;
+  width:100%;
+  margin:60px 30px;
+}
+.cate_ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width:100%;
+}
+.cate_form{
+  width:23%;
+  height:48px;
+  margin:12px 8px 0 0;
+  padding-left: 8px;
+}
+
+.cate_form input[type=radio]{
+  display: none;
+}
+.cate_form input[type=radio]+label{
+  border:1px solid rgba(97, 97, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  line-height: 100%;
+  font-size:16px;
+  color:rgba(97, 97, 184);
+  border-radius: 24px;
+}
+
+.cate_form input[type=radio]:checked+label{
+  background-color: rgba(97, 97, 184);
+  color: #fff;
+}
+
+
+
+
+.que.on_1>span{
+font-weight: bold;
+}
+
+.arrow-wrap {
+position: absolute;
+top:43px; right: 10px;
+transform: translate(0, -50%);
+}
+.que_1 .arrow-top {
+display: none;
+}
+.que_1 .arrow-bottom {
+display: block;
+}
+.que_1.on .arrow-bottom {
+display: none;
+}
+.que_1.on .arrow-top {
+display: block; 
+}
+
+/**/
+.faq_cont{
+  width:100%;
+  display:block;
+}
+
+.Accordion_wrap.on{
+  margin-bottom: 100px;
+}
+.Accordion_wrap{
+  position: relative;
+  width:100%;
+  border:1px solid rgba(0,0,0,0.15);
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom:50px ;
+  list-style: none;
+}
+
+.que_1{
+  line-height: 86px;
+  padding:0 20px;
+ 
+}
+.que_round{
+  border:1px solid rgba(97, 97, 184);
+  border-radius: 24px;
+  color: rgba(97, 97, 184);
+  line-height: 40px;
+  width:160px;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+}
+.que_q{
+  text-align: center;
+  padding-left: 48px;
+  font-size: 18px;
+}
+.que_q::before{
+  position: absolute;
+  top: 3px;
+  left: 200px;
+  display: block;
+  width: 24px;
+  height: 24px;
+  content: 'Q';
+  color: rgba(97, 97, 184);
+  font-weight: bold;
+  font-size: 20px;
+}
+.que_2{
+  height:auto;
+  width:100%;
+  padding: 20px 20px 20px 228px;
+  background-color: rgba(0,0,0,0.15);
+}
+
+.que_2::before{
+  position: absolute;
+  display: block;
+  left:208px;
+  width: 24px;
+  height: 24px;
+  content: 'A';
+  color: #ffd100;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 20px;
+}

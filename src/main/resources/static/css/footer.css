@@ -1,0 +1,33 @@
+*{
+  text-decoration: none; 
+  list-style: none; 
+  
+}
+.footer{
+  clear:both;
+  bottom:0px;
+  width:100%;
+  padding:46px 0 58px 25px;
+  display:block;
+  font-family: "Noto Sans KR";
+  background-color: rgb(248, 249, 250);
+  margin-top:20px;
+  
+}
+.footer_link{
+  display:flex;
+  margin-bottom: 24px;
+  line-height: 24px;
+  font-size: 14px;
+}
+.footer_link a{
+  color:black;
+}
+.footer li{
+  margin-right: 8px;
+  
+}
+
+.footer_addr{
+  display:flex;
+}

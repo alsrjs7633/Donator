@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;900&display=swap');
+*{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+#nav-wrap{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+}
+.navi{
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #333;
+}
+.logo-area{
+  margin: 0 auto;
+  margin-left: 70px;
+  width: 120px;
+}
+.dnone{
+  display: none;
+}
+.navContainer{
+  background-color: white;
+  width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: inherit;
+  justify-content: center;
+}
+.nav-menu{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.nav-ul{
+  display: flex;
+  flex-direction: row;
+  padding-left: 12px;
+}
+.nav-link{
+  padding-right: 2rem;
+  padding-left: 2rem;
+  line-height: 38px;
+}
+.nav-item{
+  
+  transition: all 250ms ease-in-out;
+}
+.nav-item:hover{
+  background-color: rgb(236, 236, 236);
+}
+.nav-item::after{
+  display: block;
+  content: '';
+  border-bottom: 2px solid #bc79f9d9;
+  transform: scaleX(0);
+  transition: all 250ms ease-in-out;
+}
+.nav-item:hover:after{
+  transform: scaleX(1);
+}
+
+.fast-sup{
+  background-color: #bc79f9d9;
+  border: #bc79f9d9;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  
+  cursor: pointer;
+}
+.sup-color{
+  font-weight: 500;
+  color: azure;
+}
+.user-ul{
+  display: flex;
+  position: relative;
+  top: 14px;
+  right: -20px;
+}
+.user-ul li{
+  margin-right: 20px;
+  line-height: 30px;
+}
+.user-ul li a i{
+  font-size: 30px;
+}
+.hov-menu{
+  display: flex;
+  justify-content: center;
+}
+.dnone-menu{
+  vertical-align: middle;
+  
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.636);
+  line-height: 53px;
+}
+.dnone-menu ul li a:hover{
+  color: #bc79f9d9;
+}
+
+
+
+
